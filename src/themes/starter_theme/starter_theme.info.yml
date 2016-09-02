@@ -1,0 +1,26 @@
+name: Starter Theme
+type: theme
+description: Starter theme for new TEN7 sites
+package: Other
+core: 8.x
+screenshot: logo.svg
+base theme: classy
+#Using Classy as a base theme https://www.drupal.org/theme-guide/8/classy
+
+libraries:
+  - starter_theme/global-styling
+
+
+#stylesheets-remove:
+#  - core/assets/vendor/normalize-css/normalize.css
+#  - core/modules/system/css/system.module.css
+#  - core/modules/system/css/system.theme.css
+#  - core/modules/views/css/views.module.css
+
+
+regions:
+  navigation: Navigation
+  header: Header
+  content: Content
+  footer: Footer
+

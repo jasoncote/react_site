@@ -1,0 +1,40 @@
+global:
+  version: 1.x
+  header: true
+  css:
+    base:
+      css/base.css: {}
+
+    layout:
+      css/layouts/layout.css: {}
+
+    theme:
+      css/components/header.css: {}
+      css/components/footer.css: {}
+
+
+  js:
+
+  dependencies:
+    - core/drupal
+    #    - core/jquery
+
+
+##### example of externally hosted fonts:
+#fonts:
+#  version: 1.x
+#  css:
+#    theme:
+#      https://fonts.googleapis.com/css?family=Indie+Flower: { type: external }
+
+
+##### example of externally hosted libraries:
+#angular.angularjs:
+#  remote: https://github.com/angular
+#  version: 1.4.4
+#  license:
+#    name: MIT
+#    url: https://github.com/angular/angular.js/blob/master/LICENSE
+#    gpl-compatible: true
+#  js:
+#    https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js: { type: external, minified: true }

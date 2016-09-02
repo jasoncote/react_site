@@ -1,0 +1,16 @@
+name: starter
+type: theme
+description: The stub starter theme for TEN7 websites.
+package: Other
+core: 8.x
+libraries:
+  - starter/global
+
+base theme: classy
+#Using Classy as a base theme https://www.drupal.org/theme-guide/8/classy
+
+regions:
+  navigation: Navigation
+  header: Header
+  content: Content
+  footer: Footer

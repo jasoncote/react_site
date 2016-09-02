@@ -1,0 +1,12 @@
+starter.narrow:
+  label: narrow
+  mediaQuery: 'all and (max-width: 768px)'
+  weight: 1
+  multipliers:
+    - 1x
+starter.wide:
+  label: wide
+  mediaQuery: 'all and (min-width: 769px)'
+  weight: 2
+  multipliers:
+    - 1x

@@ -1,0 +1,9 @@
+{
+  "require": {
+    "drupal/drupal-extension": "~3.0",
+    "fabpot/goutte": "1.0.7"
+},
+  "config": {
+    "bin-dir": "bin/"
+  }
+}

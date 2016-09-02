@@ -1,0 +1,65 @@
+// Import variables.
+@import "init";
+@import "mixins";
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  color: $primary;
+}
+
+h1 {
+  letter-spacing: $base-letter-spacing;
+}
+
+h2 {
+  letter-spacing: $base-letter-spacing;
+}
+
+h3 {
+  letter-spacing: $base-letter-spacing;
+}
+
+h4 {
+  letter-spacing: $base-letter-spacing;
+}
+
+h5 {
+  letter-spacing: $base-letter-spacing;
+}
+
+p {
+  margin: ($base-line-height * 1) 0;
+}
+
+
+ul,
+ol {
+  margin-left: $indent-width;
+  padding: 0;
+}
+
+blockquote,
+q {
+  margin-left: $indent-width;
+}
+
+input[type=text], input[type=url], input[type=email], input[type=password], input[type=tel], textarea {
+  border: 1px solid $primary;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+input[type=submit] { }

@@ -1,0 +1,10 @@
+global-styling:
+  js:
+    build/bundle.js: {}
+
+global-css:
+  css:
+    theme:
+      css/style.css: {}
+
+

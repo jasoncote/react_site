@@ -1,0 +1,27 @@
+default:
+  suites:
+    default:
+      contexts:
+        - FeatureContext
+        - T7HelperContext
+        - Drupal\DrupalExtension\Context\MinkContext
+        - Drupal\DrupalExtension\Context\MessageContext
+  extensions:
+    Behat\MinkExtension:
+      goutte: ~
+      selenium2: ~
+    Drupal\DrupalExtension:
+      blackbox: ~
+      api_driver: 'drupal'
+      default_driver: 'drupal'
+      text:
+        username_field: 'name'
+        log_out: 'Log out'
+      region_map:
+        Main Content: '.region-content'
+        Navigation: '.region-navbar'
+        Header: '.region-header'
+        Footer: '.region-footer'
+
+imports:
+  - behat.local.yml

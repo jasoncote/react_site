@@ -1,0 +1,24 @@
+global-styling:
+  version: 1.x
+  header: true
+  css:
+    base:
+      css/base.css: {}
+
+    layout:
+#      css/layouts/layout.css: {}
+
+    theme:
+#      css/components/header.css: {}
+#      css/components/footer.css: {}
+
+  js:
+#    js/scripts.js: {}
+#    js/TEN7.js: {}
+#    js/script-mobile.js: {}
+#    js/script-desktop.js: {}
+
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupal.dialog.ajax

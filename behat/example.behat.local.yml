@@ -1,0 +1,12 @@
+# example.behat.local.yml
+#
+# Copy this file to 'behat.local.yml' and change the 'base_url' and
+# 'drupal_root' parameters to match the local environment.
+#
+default:
+  extensions:
+    Behat\MinkExtension:
+      base_url: 'http://LOCALSITE.TLD'
+    Drupal\DrupalExtension:
+      drupal:
+        drupal_root: '/path/to/drupalroot'
